@@ -1,9 +1,11 @@
 FROM gitpod/workspace-full:latest
 
-USER root
-
-RUN apt-get update \
-    && python -m venv venvERC20
+USER gitpod
+RUN python -m venv venvERC20 \
+    && source ./venvERC20/bin/activate \
+    && python -m pip install --upgrade pip \
+    && pip install eth-brownie \
+    && npm install -g ganache-cli \
 
 # RUN apt update \
 #    && yes | apt install nodejs \
