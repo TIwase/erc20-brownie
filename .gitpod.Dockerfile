@@ -1,8 +1,8 @@
 FROM gitpod/workspace-full:latest
 
 USER gitpod
-RUN python -m venv venvERC20 \
-    && source ./venvERC20/bin/activate \
+RUN python -m venv ~/venvERC20 \
+    && source ~/venvERC20/bin/activate \
     && python -m pip install --upgrade pip \
     && pip install eth-brownie \
     && npm install -g ganache-cli \
