@@ -6,4 +6,8 @@ RUN apt-get update \
     && apt-get install python3
 
 RUN apt update \
-#    && apt install nodejs npm
+   && yes | apt install nodejs \
+   && yes | apt install npm \
+   && python -V \
+   && echo "Nodejs Version: " && nodejs -v \
+   && echo "npm Version: " && npm --version
