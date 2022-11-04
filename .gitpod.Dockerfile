@@ -6,4 +6,4 @@ RUN apt-get update \
     && apt-get install python3
 
 RUN apt update \
-    && apt install nodejs npm
+#    && apt install nodejs npm
