@@ -1,5 +1,5 @@
 FROM gitpod/workspace-full:latest
-
+SHELL ["/bin/bash", "-c"]
 USER gitpod
 RUN python -m venv ~/venvERC20 \
     && source ~/venvERC20/bin/activate \
