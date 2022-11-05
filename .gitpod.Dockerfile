@@ -6,6 +6,8 @@ RUN python -m venv ~/venvERC20 \
     && python -m pip install --upgrade pip \
     && pip install eth-brownie \
     && npm install -g ganache-cli \
+    && echo "source ~/venvERC20/bin/activate" >> ~/.bashrc
+
 # RUN apt update \
 #    && yes | apt install nodejs \
 #    && yes | apt install npm \
