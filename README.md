@@ -48,4 +48,5 @@ ganache-cli
 ```bash
 brownie run ./scripts/2_deploy_easy_token.py
 ```
+(実行例)
 
