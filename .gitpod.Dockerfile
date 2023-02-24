@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full:latest
+FROM gitpod/workspace-full-vnc:latest
 SHELL ["/bin/bash", "-c"]
 USER gitpod
 RUN python -m venv ~/venvERC20 \
