@@ -8,5 +8,6 @@ dotenv: .env
 networks:
   default: development
   kovan: active
+  goerli: active
 wallets:
   from_key: ${PRIVATE_KEY}
