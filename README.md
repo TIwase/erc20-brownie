@@ -1,12 +1,19 @@
 # 実行手順
 ## 0. 事前準備
 ### 0.1. ログイン確認
+
+下記URLにアクセス(対象のgithubリモートリポジトリの先頭に```gitpod.io/#```を付ける)  
+
+```
+gitpod.io/#https://github.com/TIwase/erc20-brownie
+```
 gitpod起動時、プロンプトの先頭にvenv名が表示されることを確認する  
 
 (表示例)
 ```bash
 (venvERC20) gitpod /workspace/erc20-brownie (main) $
 ```
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/TIwase/erc20-brownie)  
 
 ### 0.2. 自動インストールされたパッケージの確認
 - pythonの確認  
